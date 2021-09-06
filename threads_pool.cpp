@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
     int k = atoi(argv[1]);
     int nworkers = atoi(argv[2]);
-    int delta = nworkers;
+    int delta = max(nworkers, 32);
     string n_points = "";
     string filename = "data/input_";
 
