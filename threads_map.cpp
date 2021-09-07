@@ -32,7 +32,6 @@ int main(int argc, char *argv[])
 
     auto knn = [&points, &local](const pair<int, int> range, const int k)
     {
-        string tmp = "";
         for (int i = range.first; i < range.second; i++)
         {
             vector<pair<int, float>> neighbours;
