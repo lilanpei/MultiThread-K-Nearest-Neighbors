@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     int k = atoi(argv[1]);
     int nworkers = atoi(argv[2]);
     string filename = "data/input_" + string(argv[3]) + ".csv";
-    string outpus = "";
+    string outputs = "";
     ParallelForReduce<string> pfr(nworkers);
     vector<Point> points;
 
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
     {
         utimer t3("knn");
         pfr.parallel_reduce(
-            outpus, "",
+            outputs, "",
             0, points.size(),
             1,
             0, // static partitioning
@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
             exit(-1);
         }
 
-        out << outpus << endl;
+        out << outputs << endl;
         out.close();
     }
     return 0;

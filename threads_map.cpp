@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     int k = atoi(argv[1]);
     int nworkers = atoi(argv[2]);
     string filename = "data/input_" + string(argv[3]) + ".csv";
-    string outpus = "";
+    string outputs = "";
 
     vector<Point> points;
 
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
             t.join();
 
         for (int i = 0; i < size; i++)
-            outpus.append(local[i]);
+            outputs.append(local[i]);
     }
 
     {
@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
             exit(-1);
         }
 
-        out << outpus << endl;
+        out << outputs << endl;
         out.close();
     }
     return 0;

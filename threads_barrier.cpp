@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
     cout << "Chunk-size: " << delta << endl;
 
-    string outpus = "";
+    string outputs = "";
     vector<Point> points;
 
     {
@@ -110,7 +110,7 @@ int main(int argc, char *argv[])
         }
 
         for (int i = 0; i < size; i++)
-            outpus.append(local[i]);
+            outputs.append(local[i]);
     }
 
     {
@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
             exit(-1);
         }
 
-        out << outpus << endl;
+        out << outputs << endl;
         out.close();
     }
     return 0;

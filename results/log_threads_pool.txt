@@ -1,0 +1,1682 @@
+==================== bash: ./test_threads_pool.sh ====================
+==================== k: 10 ====================
+==================== N_workers: 1 ====================
+------------------------ k: 10, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27102 usec
+knn computed in 5221879 usec
+write_results computed in 3405 usec
+total computed in 5253069 usec
+------------------------ k: 10, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27076 usec
+knn computed in 5226224 usec
+write_results computed in 939 usec
+total computed in 5254981 usec
+------------------------ k: 10, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27484 usec
+knn computed in 5218330 usec
+write_results computed in 938 usec
+total computed in 5247454 usec
+------------------------ k: 10, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27035 usec
+knn computed in 5203911 usec
+write_results computed in 949 usec
+total computed in 5232534 usec
+------------------------ k: 10, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27069 usec
+knn computed in 5198871 usec
+write_results computed in 960 usec
+total computed in 5227589 usec
+==================== N_workers: 2 ====================
+------------------------ k: 10, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27041 usec
+knn computed in 2601971 usec
+write_results computed in 946 usec
+total computed in 2630647 usec
+------------------------ k: 10, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27040 usec
+knn computed in 2606119 usec
+write_results computed in 941 usec
+total computed in 2634854 usec
+------------------------ k: 10, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27069 usec
+knn computed in 2607159 usec
+write_results computed in 962 usec
+total computed in 2635921 usec
+------------------------ k: 10, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27055 usec
+knn computed in 2606995 usec
+write_results computed in 959 usec
+total computed in 2635723 usec
+------------------------ k: 10, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27067 usec
+knn computed in 2610771 usec
+write_results computed in 1141 usec
+total computed in 2639763 usec
+==================== N_workers: 4 ====================
+------------------------ k: 10, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27094 usec
+knn computed in 1361761 usec
+write_results computed in 947 usec
+total computed in 1390495 usec
+------------------------ k: 10, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27089 usec
+knn computed in 1372200 usec
+write_results computed in 961 usec
+total computed in 1400846 usec
+------------------------ k: 10, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27050 usec
+knn computed in 1598782 usec
+write_results computed in 992 usec
+total computed in 1627524 usec
+------------------------ k: 10, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27063 usec
+knn computed in 1324808 usec
+write_results computed in 987 usec
+total computed in 1353530 usec
+------------------------ k: 10, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27081 usec
+knn computed in 1361646 usec
+write_results computed in 1012 usec
+total computed in 1390408 usec
+==================== N_workers: 8 ====================
+------------------------ k: 10, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27290 usec
+knn computed in 863129 usec
+write_results computed in 986 usec
+total computed in 892076 usec
+------------------------ k: 10, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27137 usec
+knn computed in 831816 usec
+write_results computed in 1010 usec
+total computed in 860624 usec
+------------------------ k: 10, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27086 usec
+knn computed in 964073 usec
+write_results computed in 965 usec
+total computed in 992847 usec
+------------------------ k: 10, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27031 usec
+knn computed in 708055 usec
+write_results computed in 982 usec
+total computed in 736752 usec
+------------------------ k: 10, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27109 usec
+knn computed in 949282 usec
+write_results computed in 959 usec
+total computed in 978012 usec
+==================== N_workers: 16 ====================
+------------------------ k: 10, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27012 usec
+knn computed in 390114 usec
+write_results computed in 986 usec
+total computed in 418743 usec
+------------------------ k: 10, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27148 usec
+knn computed in 463973 usec
+write_results computed in 1017 usec
+total computed in 492815 usec
+------------------------ k: 10, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27155 usec
+knn computed in 450505 usec
+write_results computed in 979 usec
+total computed in 479289 usec
+------------------------ k: 10, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27116 usec
+knn computed in 425207 usec
+write_results computed in 975 usec
+total computed in 453989 usec
+------------------------ k: 10, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27137 usec
+knn computed in 466648 usec
+write_results computed in 987 usec
+total computed in 495425 usec
+==================== N_workers: 32 ====================
+------------------------ k: 10, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27164 usec
+knn computed in 327317 usec
+write_results computed in 997 usec
+total computed in 356120 usec
+------------------------ k: 10, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27552 usec
+knn computed in 331234 usec
+write_results computed in 1131 usec
+total computed in 360554 usec
+------------------------ k: 10, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27281 usec
+knn computed in 321197 usec
+write_results computed in 1047 usec
+total computed in 350258 usec
+------------------------ k: 10, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 28782 usec
+knn computed in 318031 usec
+write_results computed in 1019 usec
+total computed in 348520 usec
+------------------------ k: 10, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27145 usec
+knn computed in 328238 usec
+write_results computed in 1011 usec
+total computed in 357133 usec
+==================== N_workers: 64 ====================
+------------------------ k: 10, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27104 usec
+knn computed in 328464 usec
+write_results computed in 970 usec
+total computed in 357316 usec
+------------------------ k: 10, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27204 usec
+knn computed in 334743 usec
+write_results computed in 954 usec
+total computed in 363635 usec
+------------------------ k: 10, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27095 usec
+knn computed in 341606 usec
+write_results computed in 995 usec
+total computed in 370381 usec
+------------------------ k: 10, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27018 usec
+knn computed in 325965 usec
+write_results computed in 997 usec
+total computed in 354655 usec
+------------------------ k: 10, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27068 usec
+knn computed in 311471 usec
+write_results computed in 986 usec
+total computed in 340175 usec
+==================== N_workers: 128 ====================
+------------------------ k: 10, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27128 usec
+knn computed in 384402 usec
+write_results computed in 1007 usec
+total computed in 413291 usec
+------------------------ k: 10, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27357 usec
+knn computed in 360584 usec
+write_results computed in 1046 usec
+total computed in 389630 usec
+------------------------ k: 10, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27083 usec
+knn computed in 384557 usec
+write_results computed in 1015 usec
+total computed in 413382 usec
+------------------------ k: 10, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27106 usec
+knn computed in 368310 usec
+write_results computed in 1002 usec
+total computed in 397105 usec
+------------------------ k: 10, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27069 usec
+knn computed in 374008 usec
+write_results computed in 1021 usec
+total computed in 402858 usec
+==================== N_workers: 256 ====================
+------------------------ k: 10, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27093 usec
+knn computed in 438656 usec
+write_results computed in 1062 usec
+total computed in 467496 usec
+------------------------ k: 10, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27114 usec
+knn computed in 400886 usec
+write_results computed in 1103 usec
+total computed in 429778 usec
+------------------------ k: 10, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27074 usec
+knn computed in 431433 usec
+write_results computed in 1094 usec
+total computed in 460284 usec
+------------------------ k: 10, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27392 usec
+knn computed in 393775 usec
+write_results computed in 1104 usec
+total computed in 423008 usec
+------------------------ k: 10, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27451 usec
+knn computed in 438479 usec
+write_results computed in 1049 usec
+total computed in 467723 usec
+==================== k: 100 ====================
+==================== N_workers: 1 ====================
+------------------------ k: 100, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27227 usec
+knn computed in 5198208 usec
+write_results computed in 958 usec
+total computed in 5227088 usec
+------------------------ k: 100, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27079 usec
+knn computed in 5198983 usec
+write_results computed in 943 usec
+total computed in 5227707 usec
+------------------------ k: 100, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27094 usec
+knn computed in 5195491 usec
+write_results computed in 949 usec
+total computed in 5224205 usec
+------------------------ k: 100, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27083 usec
+knn computed in 5210436 usec
+write_results computed in 960 usec
+total computed in 5239174 usec
+------------------------ k: 100, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27062 usec
+knn computed in 5196759 usec
+write_results computed in 974 usec
+total computed in 5225514 usec
+==================== N_workers: 2 ====================
+------------------------ k: 100, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27102 usec
+knn computed in 2607941 usec
+write_results computed in 1001 usec
+total computed in 2636706 usec
+------------------------ k: 100, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27091 usec
+knn computed in 2603261 usec
+write_results computed in 998 usec
+total computed in 2632042 usec
+------------------------ k: 100, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27328 usec
+knn computed in 2613172 usec
+write_results computed in 988 usec
+total computed in 2642218 usec
+------------------------ k: 100, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27094 usec
+knn computed in 2605130 usec
+write_results computed in 986 usec
+total computed in 2633813 usec
+------------------------ k: 100, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27052 usec
+knn computed in 2607451 usec
+write_results computed in 982 usec
+total computed in 2636125 usec
+==================== N_workers: 4 ====================
+------------------------ k: 100, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27056 usec
+knn computed in 1334173 usec
+write_results computed in 958 usec
+total computed in 1362854 usec
+------------------------ k: 100, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 28798 usec
+knn computed in 1335892 usec
+write_results computed in 962 usec
+total computed in 1366315 usec
+------------------------ k: 100, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27153 usec
+knn computed in 1332496 usec
+write_results computed in 970 usec
+total computed in 1361299 usec
+------------------------ k: 100, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27105 usec
+knn computed in 1366863 usec
+write_results computed in 955 usec
+total computed in 1395627 usec
+------------------------ k: 100, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27097 usec
+knn computed in 1366492 usec
+write_results computed in 979 usec
+total computed in 1395303 usec
+==================== N_workers: 8 ====================
+------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27108 usec
+knn computed in 735117 usec
+write_results computed in 983 usec
+total computed in 763877 usec
+------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27083 usec
+knn computed in 712821 usec
+write_results computed in 1009 usec
+total computed in 741616 usec
+------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27091 usec
+knn computed in 791220 usec
+write_results computed in 1019 usec
+total computed in 819976 usec
+------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27111 usec
+knn computed in 770300 usec
+write_results computed in 1006 usec
+total computed in 799090 usec
+------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27121 usec
+knn computed in 985724 usec
+write_results computed in 993 usec
+total computed in 1014534 usec
+==================== N_workers: 16 ====================
+------------------------ k: 100, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27115 usec
+knn computed in 539720 usec
+write_results computed in 1004 usec
+total computed in 568530 usec
+------------------------ k: 100, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27118 usec
+knn computed in 585905 usec
+write_results computed in 1003 usec
+total computed in 614687 usec
+------------------------ k: 100, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27174 usec
+knn computed in 467584 usec
+write_results computed in 983 usec
+total computed in 496414 usec
+------------------------ k: 100, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27085 usec
+knn computed in 453562 usec
+write_results computed in 998 usec
+total computed in 482427 usec
+------------------------ k: 100, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27103 usec
+knn computed in 503107 usec
+write_results computed in 995 usec
+total computed in 531922 usec
+==================== N_workers: 32 ====================
+------------------------ k: 100, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27135 usec
+knn computed in 331292 usec
+write_results computed in 1063 usec
+total computed in 360192 usec
+------------------------ k: 100, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27020 usec
+knn computed in 344077 usec
+write_results computed in 1008 usec
+total computed in 372772 usec
+------------------------ k: 100, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27309 usec
+knn computed in 326538 usec
+write_results computed in 1058 usec
+total computed in 355691 usec
+------------------------ k: 100, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27071 usec
+knn computed in 324209 usec
+write_results computed in 1020 usec
+total computed in 352991 usec
+------------------------ k: 100, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27084 usec
+knn computed in 323167 usec
+write_results computed in 986 usec
+total computed in 351909 usec
+==================== N_workers: 64 ====================
+------------------------ k: 100, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27133 usec
+knn computed in 333220 usec
+write_results computed in 983 usec
+total computed in 361984 usec
+------------------------ k: 100, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27121 usec
+knn computed in 326256 usec
+write_results computed in 1002 usec
+total computed in 355036 usec
+------------------------ k: 100, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27147 usec
+knn computed in 321204 usec
+write_results computed in 1006 usec
+total computed in 350036 usec
+------------------------ k: 100, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27151 usec
+knn computed in 311458 usec
+write_results computed in 1012 usec
+total computed in 340261 usec
+------------------------ k: 100, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27074 usec
+knn computed in 317910 usec
+write_results computed in 991 usec
+total computed in 346639 usec
+==================== N_workers: 128 ====================
+------------------------ k: 100, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27111 usec
+knn computed in 340280 usec
+write_results computed in 1000 usec
+total computed in 369158 usec
+------------------------ k: 100, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27191 usec
+knn computed in 369649 usec
+write_results computed in 1076 usec
+total computed in 398576 usec
+------------------------ k: 100, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27062 usec
+knn computed in 346892 usec
+write_results computed in 1001 usec
+total computed in 375657 usec
+------------------------ k: 100, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27158 usec
+knn computed in 358793 usec
+write_results computed in 989 usec
+total computed in 387670 usec
+------------------------ k: 100, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27169 usec
+knn computed in 398190 usec
+write_results computed in 1063 usec
+total computed in 427109 usec
+==================== N_workers: 256 ====================
+------------------------ k: 100, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27103 usec
+knn computed in 418113 usec
+write_results computed in 1083 usec
+total computed in 447000 usec
+------------------------ k: 100, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27146 usec
+knn computed in 431834 usec
+write_results computed in 1070 usec
+total computed in 460699 usec
+------------------------ k: 100, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27105 usec
+knn computed in 423709 usec
+write_results computed in 1072 usec
+total computed in 452557 usec
+------------------------ k: 100, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27148 usec
+knn computed in 418868 usec
+write_results computed in 1047 usec
+total computed in 447834 usec
+------------------------ k: 100, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27107 usec
+knn computed in 424577 usec
+write_results computed in 1098 usec
+total computed in 453470 usec
+==================== k: 1000 ====================
+==================== N_workers: 1 ====================
+------------------------ k: 1000, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27184 usec
+knn computed in 5200435 usec
+write_results computed in 963 usec
+total computed in 5229270 usec
+------------------------ k: 1000, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27159 usec
+knn computed in 5213133 usec
+write_results computed in 977 usec
+total computed in 5241995 usec
+------------------------ k: 1000, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27062 usec
+knn computed in 5196205 usec
+write_results computed in 981 usec
+total computed in 5224931 usec
+------------------------ k: 1000, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27082 usec
+knn computed in 5195952 usec
+write_results computed in 962 usec
+total computed in 5224691 usec
+------------------------ k: 1000, N_workers: 1, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27115 usec
+knn computed in 5200623 usec
+write_results computed in 967 usec
+total computed in 5229368 usec
+==================== N_workers: 2 ====================
+------------------------ k: 1000, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27197 usec
+knn computed in 2602631 usec
+write_results computed in 1000 usec
+total computed in 2631490 usec
+------------------------ k: 1000, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27117 usec
+knn computed in 2608199 usec
+write_results computed in 930 usec
+total computed in 2636939 usec
+------------------------ k: 1000, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27497 usec
+knn computed in 2612788 usec
+write_results computed in 965 usec
+total computed in 2641989 usec
+------------------------ k: 1000, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27086 usec
+knn computed in 2603632 usec
+write_results computed in 998 usec
+total computed in 2632281 usec
+------------------------ k: 1000, N_workers: 2, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27060 usec
+knn computed in 2614511 usec
+write_results computed in 972 usec
+total computed in 2643300 usec
+==================== N_workers: 4 ====================
+------------------------ k: 1000, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27101 usec
+knn computed in 1360043 usec
+write_results computed in 969 usec
+total computed in 1388819 usec
+------------------------ k: 1000, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27082 usec
+knn computed in 1362230 usec
+write_results computed in 989 usec
+total computed in 1391046 usec
+------------------------ k: 1000, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27119 usec
+knn computed in 1351376 usec
+write_results computed in 977 usec
+total computed in 1380140 usec
+------------------------ k: 1000, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27148 usec
+knn computed in 1355266 usec
+write_results computed in 1035 usec
+total computed in 1384095 usec
+------------------------ k: 1000, N_workers: 4, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27134 usec
+knn computed in 1360543 usec
+write_results computed in 976 usec
+total computed in 1389379 usec
+==================== N_workers: 8 ====================
+------------------------ k: 1000, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27084 usec
+knn computed in 814585 usec
+write_results computed in 983 usec
+total computed in 843384 usec
+------------------------ k: 1000, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27129 usec
+knn computed in 708820 usec
+write_results computed in 996 usec
+total computed in 737664 usec
+------------------------ k: 1000, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27077 usec
+knn computed in 892417 usec
+write_results computed in 1013 usec
+total computed in 921156 usec
+------------------------ k: 1000, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27095 usec
+knn computed in 701402 usec
+write_results computed in 985 usec
+total computed in 730136 usec
+------------------------ k: 1000, N_workers: 8, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27198 usec
+knn computed in 768349 usec
+write_results computed in 996 usec
+total computed in 797231 usec
+==================== N_workers: 16 ====================
+------------------------ k: 1000, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27057 usec
+knn computed in 545422 usec
+write_results computed in 997 usec
+total computed in 574208 usec
+------------------------ k: 1000, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27096 usec
+knn computed in 472326 usec
+write_results computed in 1026 usec
+total computed in 501226 usec
+------------------------ k: 1000, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27062 usec
+knn computed in 515052 usec
+write_results computed in 1016 usec
+total computed in 543841 usec
+------------------------ k: 1000, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27060 usec
+knn computed in 425948 usec
+write_results computed in 1005 usec
+total computed in 454759 usec
+------------------------ k: 1000, N_workers: 16, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27085 usec
+knn computed in 424038 usec
+write_results computed in 1011 usec
+total computed in 452818 usec
+==================== N_workers: 32 ====================
+------------------------ k: 1000, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27164 usec
+knn computed in 336062 usec
+write_results computed in 1022 usec
+total computed in 364911 usec
+------------------------ k: 1000, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27057 usec
+knn computed in 316320 usec
+write_results computed in 1017 usec
+total computed in 345061 usec
+------------------------ k: 1000, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27063 usec
+knn computed in 348949 usec
+write_results computed in 1040 usec
+total computed in 377710 usec
+------------------------ k: 1000, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27090 usec
+knn computed in 366559 usec
+write_results computed in 1016 usec
+total computed in 395305 usec
+------------------------ k: 1000, N_workers: 32, N_points: 10k ------------------------
+Chunk-size: 32
+read_points computed in 27074 usec
+knn computed in 302342 usec
+write_results computed in 988 usec
+total computed in 331099 usec
+==================== N_workers: 64 ====================
+------------------------ k: 1000, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27096 usec
+knn computed in 299758 usec
+write_results computed in 1020 usec
+total computed in 328568 usec
+------------------------ k: 1000, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27295 usec
+knn computed in 303702 usec
+write_results computed in 981 usec
+total computed in 332681 usec
+------------------------ k: 1000, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27142 usec
+knn computed in 313659 usec
+write_results computed in 1054 usec
+total computed in 342476 usec
+------------------------ k: 1000, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27135 usec
+knn computed in 304919 usec
+write_results computed in 1059 usec
+total computed in 333839 usec
+------------------------ k: 1000, N_workers: 64, N_points: 10k ------------------------
+Chunk-size: 64
+read_points computed in 27106 usec
+knn computed in 327232 usec
+write_results computed in 967 usec
+total computed in 355954 usec
+==================== N_workers: 128 ====================
+------------------------ k: 1000, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27076 usec
+knn computed in 373045 usec
+write_results computed in 1022 usec
+total computed in 401821 usec
+------------------------ k: 1000, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27122 usec
+knn computed in 362948 usec
+write_results computed in 1054 usec
+total computed in 391826 usec
+------------------------ k: 1000, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27073 usec
+knn computed in 373398 usec
+write_results computed in 1023 usec
+total computed in 402225 usec
+------------------------ k: 1000, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27038 usec
+knn computed in 338476 usec
+write_results computed in 996 usec
+total computed in 367221 usec
+------------------------ k: 1000, N_workers: 128, N_points: 10k ------------------------
+Chunk-size: 128
+read_points computed in 27334 usec
+knn computed in 416594 usec
+write_results computed in 1089 usec
+total computed in 445812 usec
+==================== N_workers: 256 ====================
+------------------------ k: 1000, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27068 usec
+knn computed in 401195 usec
+write_results computed in 1057 usec
+total computed in 430014 usec
+------------------------ k: 1000, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27328 usec
+knn computed in 396414 usec
+write_results computed in 1041 usec
+total computed in 425473 usec
+------------------------ k: 1000, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27118 usec
+knn computed in 444621 usec
+write_results computed in 1080 usec
+total computed in 473507 usec
+------------------------ k: 1000, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27181 usec
+knn computed in 423790 usec
+write_results computed in 1081 usec
+total computed in 452723 usec
+------------------------ k: 1000, N_workers: 256, N_points: 10k ------------------------
+Chunk-size: 256
+read_points computed in 27076 usec
+knn computed in 431435 usec
+write_results computed in 1059 usec
+total computed in 460285 usec
+##############################################################################
+==================== k: 10 ====================
+==================== N_workers: 1 ====================
+------------------------ k: 10, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265822 usec
+knn computed in 520981879 usec
+write_results computed in 2473 usec
+total computed in 521251459 usec
+------------------------ k: 10, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263449 usec
+knn computed in 520740042 usec
+write_results computed in 3155 usec
+total computed in 521007309 usec
+------------------------ k: 10, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265459 usec
+knn computed in 520113162 usec
+write_results computed in 3153 usec
+total computed in 520382889 usec
+------------------------ k: 10, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263609 usec
+knn computed in 521791892 usec
+write_results computed in 3063 usec
+total computed in 522059249 usec
+------------------------ k: 10, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263448 usec
+knn computed in 520361493 usec
+write_results computed in 3081 usec
+total computed in 520628588 usec
+==================== N_workers: 2 ====================
+------------------------ k: 10, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264222 usec
+knn computed in 259960158 usec
+write_results computed in 3065 usec
+total computed in 260228084 usec
+------------------------ k: 10, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265790 usec
+knn computed in 259842355 usec
+write_results computed in 3041 usec
+total computed in 260112529 usec
+------------------------ k: 10, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265546 usec
+knn computed in 260181815 usec
+write_results computed in 3044 usec
+total computed in 260451932 usec
+------------------------ k: 10, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263246 usec
+knn computed in 260451385 usec
+write_results computed in 4751 usec
+total computed in 260720091 usec
+------------------------ k: 10, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263632 usec
+knn computed in 260275820 usec
+write_results computed in 3063 usec
+total computed in 260543203 usec
+==================== N_workers: 4 ====================
+------------------------ k: 10, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264053 usec
+knn computed in 132387393 usec
+write_results computed in 3047 usec
+total computed in 132655091 usec
+------------------------ k: 10, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 266282 usec
+knn computed in 129963964 usec
+write_results computed in 3096 usec
+total computed in 130234711 usec
+------------------------ k: 10, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264091 usec
+knn computed in 131354861 usec
+write_results computed in 3080 usec
+total computed in 131622873 usec
+------------------------ k: 10, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264615 usec
+knn computed in 130261762 usec
+write_results computed in 3112 usec
+total computed in 130530186 usec
+------------------------ k: 10, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 266741 usec
+knn computed in 130415882 usec
+write_results computed in 3074 usec
+total computed in 130687132 usec
+==================== N_workers: 8 ====================
+------------------------ k: 10, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 271133 usec
+knn computed in 65155757 usec
+write_results computed in 3090 usec
+total computed in 65430839 usec
+------------------------ k: 10, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 267415 usec
+knn computed in 72327377 usec
+write_results computed in 3090 usec
+total computed in 72599209 usec
+------------------------ k: 10, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 347199 usec
+knn computed in 79660752 usec
+write_results computed in 4236 usec
+total computed in 80013071 usec
+------------------------ k: 10, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 336695 usec
+knn computed in 75219777 usec
+write_results computed in 3108 usec
+total computed in 75561029 usec
+------------------------ k: 10, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 394249 usec
+knn computed in 69285404 usec
+write_results computed in 3087 usec
+total computed in 69684155 usec
+==================== N_workers: 16 ====================
+------------------------ k: 10, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 291226 usec
+knn computed in 34664067 usec
+write_results computed in 3055 usec
+total computed in 34959010 usec
+------------------------ k: 10, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 276181 usec
+knn computed in 34524710 usec
+write_results computed in 4061 usec
+total computed in 34807233 usec
+------------------------ k: 10, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 297057 usec
+knn computed in 36551700 usec
+write_results computed in 3004 usec
+total computed in 36853342 usec
+------------------------ k: 10, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 296278 usec
+knn computed in 46554600 usec
+write_results computed in 5884 usec
+total computed in 46859735 usec
+------------------------ k: 10, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 671162 usec
+knn computed in 34903613 usec
+write_results computed in 3296 usec
+total computed in 35579431 usec
+==================== N_workers: 32 ====================
+------------------------ k: 10, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264273 usec
+knn computed in 19535035 usec
+write_results computed in 3063 usec
+total computed in 19803209 usec
+------------------------ k: 10, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 281969 usec
+knn computed in 19479085 usec
+write_results computed in 4062 usec
+total computed in 19765781 usec
+------------------------ k: 10, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264577 usec
+knn computed in 19536135 usec
+write_results computed in 3005 usec
+total computed in 19804545 usec
+------------------------ k: 10, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 284485 usec
+knn computed in 19469086 usec
+write_results computed in 3238 usec
+total computed in 19758066 usec
+------------------------ k: 10, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 286009 usec
+knn computed in 19676315 usec
+write_results computed in 3034 usec
+total computed in 19966099 usec
+==================== N_workers: 64 ====================
+------------------------ k: 10, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 275061 usec
+knn computed in 12278944 usec
+write_results computed in 4232 usec
+total computed in 12560704 usec
+------------------------ k: 10, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 292643 usec
+knn computed in 12144644 usec
+write_results computed in 3354 usec
+total computed in 12441425 usec
+------------------------ k: 10, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 290481 usec
+knn computed in 12102469 usec
+write_results computed in 4520 usec
+total computed in 12399752 usec
+------------------------ k: 10, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 283261 usec
+knn computed in 12340994 usec
+write_results computed in 3175 usec
+total computed in 12628698 usec
+------------------------ k: 10, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 284072 usec
+knn computed in 12171960 usec
+write_results computed in 3617 usec
+total computed in 12461317 usec
+==================== N_workers: 128 ====================
+------------------------ k: 10, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 277649 usec
+knn computed in 8045400 usec
+write_results computed in 4062 usec
+total computed in 8327811 usec
+------------------------ k: 10, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 306826 usec
+knn computed in 7942709 usec
+write_results computed in 3256 usec
+total computed in 8253420 usec
+------------------------ k: 10, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 266076 usec
+knn computed in 7665500 usec
+write_results computed in 3175 usec
+total computed in 7936092 usec
+------------------------ k: 10, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 264237 usec
+knn computed in 8161455 usec
+write_results computed in 3986 usec
+total computed in 8430724 usec
+------------------------ k: 10, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 393861 usec
+knn computed in 9169790 usec
+write_results computed in 5928 usec
+total computed in 9572649 usec
+==================== N_workers: 256 ====================
+------------------------ k: 10, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 418244 usec
+knn computed in 8172236 usec
+write_results computed in 6052 usec
+total computed in 8599615 usec
+------------------------ k: 10, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 441487 usec
+knn computed in 8419368 usec
+write_results computed in 4962 usec
+total computed in 8868931 usec
+------------------------ k: 10, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 449430 usec
+knn computed in 8138829 usec
+write_results computed in 6103 usec
+total computed in 8595344 usec
+------------------------ k: 10, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 415415 usec
+knn computed in 8317212 usec
+write_results computed in 5595 usec
+total computed in 8741172 usec
+------------------------ k: 10, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 390541 usec
+knn computed in 8293614 usec
+write_results computed in 5938 usec
+total computed in 8691318 usec
+==================== k: 100 ====================
+==================== N_workers: 1 ====================
+------------------------ k: 100, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 420080 usec
+knn computed in 680292484 usec
+write_results computed in 5042 usec
+total computed in 680719321 usec
+------------------------ k: 100, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 621882 usec
+knn computed in 687174815 usec
+write_results computed in 5166 usec
+total computed in 687802527 usec
+------------------------ k: 100, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 316213 usec
+knn computed in 635583200 usec
+write_results computed in 3264 usec
+total computed in 635903373 usec
+------------------------ k: 100, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 290932 usec
+knn computed in 540386238 usec
+write_results computed in 3184 usec
+total computed in 540680960 usec
+------------------------ k: 100, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265195 usec
+knn computed in 494509945 usec
+write_results computed in 4168 usec
+total computed in 494780561 usec
+==================== N_workers: 2 ====================
+------------------------ k: 100, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 261624 usec
+knn computed in 251972970 usec
+write_results computed in 3429 usec
+total computed in 252238989 usec
+------------------------ k: 100, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 260227 usec
+knn computed in 260348677 usec
+write_results computed in 4069 usec
+total computed in 260613718 usec
+------------------------ k: 100, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 250240 usec
+knn computed in 267019649 usec
+write_results computed in 3526 usec
+total computed in 267274160 usec
+------------------------ k: 100, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265055 usec
+knn computed in 265889196 usec
+write_results computed in 3025 usec
+total computed in 266158030 usec
+------------------------ k: 100, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265117 usec
+knn computed in 263682943 usec
+write_results computed in 3070 usec
+total computed in 263952181 usec
+==================== N_workers: 4 ====================
+------------------------ k: 100, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 262989 usec
+knn computed in 131865018 usec
+write_results computed in 3107 usec
+total computed in 132131719 usec
+------------------------ k: 100, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263416 usec
+knn computed in 131115211 usec
+write_results computed in 3082 usec
+total computed in 131382499 usec
+------------------------ k: 100, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263791 usec
+knn computed in 131810465 usec
+write_results computed in 3055 usec
+total computed in 132078008 usec
+------------------------ k: 100, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265683 usec
+knn computed in 133973381 usec
+write_results computed in 3114 usec
+total computed in 134243619 usec
+------------------------ k: 100, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264807 usec
+knn computed in 133337498 usec
+write_results computed in 3387 usec
+total computed in 133606611 usec
+==================== N_workers: 8 ====================
+------------------------ k: 100, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265151 usec
+knn computed in 66457953 usec
+write_results computed in 3158 usec
+total computed in 66727324 usec
+------------------------ k: 100, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263144 usec
+knn computed in 70291888 usec
+write_results computed in 3059 usec
+total computed in 70558784 usec
+------------------------ k: 100, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263581 usec
+knn computed in 68182089 usec
+write_results computed in 3062 usec
+total computed in 68449481 usec
+------------------------ k: 100, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265399 usec
+knn computed in 67198627 usec
+write_results computed in 3102 usec
+total computed in 67468366 usec
+------------------------ k: 100, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265188 usec
+knn computed in 66166742 usec
+write_results computed in 3408 usec
+total computed in 66436435 usec
+==================== N_workers: 16 ====================
+------------------------ k: 100, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264920 usec
+knn computed in 36016239 usec
+write_results computed in 3232 usec
+total computed in 36285574 usec
+------------------------ k: 100, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265532 usec
+knn computed in 37160228 usec
+write_results computed in 3141 usec
+total computed in 37430292 usec
+------------------------ k: 100, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265298 usec
+knn computed in 37479098 usec
+write_results computed in 3159 usec
+total computed in 37748930 usec
+------------------------ k: 100, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263503 usec
+knn computed in 33187061 usec
+write_results computed in 3110 usec
+total computed in 33454266 usec
+------------------------ k: 100, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265252 usec
+knn computed in 33474285 usec
+write_results computed in 3061 usec
+total computed in 33743696 usec
+==================== N_workers: 32 ====================
+------------------------ k: 100, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265274 usec
+knn computed in 18896812 usec
+write_results computed in 3122 usec
+total computed in 19166286 usec
+------------------------ k: 100, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265027 usec
+knn computed in 18068656 usec
+write_results computed in 3034 usec
+total computed in 18337820 usec
+------------------------ k: 100, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 262997 usec
+knn computed in 18321472 usec
+write_results computed in 3055 usec
+total computed in 18588133 usec
+------------------------ k: 100, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263549 usec
+knn computed in 17167843 usec
+write_results computed in 3083 usec
+total computed in 17435052 usec
+------------------------ k: 100, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265391 usec
+knn computed in 17690968 usec
+write_results computed in 3089 usec
+total computed in 17960787 usec
+==================== N_workers: 64 ====================
+------------------------ k: 100, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 265744 usec
+knn computed in 9824337 usec
+write_results computed in 3126 usec
+total computed in 10094497 usec
+------------------------ k: 100, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 265671 usec
+knn computed in 10056385 usec
+write_results computed in 3160 usec
+total computed in 10325977 usec
+------------------------ k: 100, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 265696 usec
+knn computed in 9835421 usec
+write_results computed in 3151 usec
+total computed in 10105525 usec
+------------------------ k: 100, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 265218 usec
+knn computed in 9811027 usec
+write_results computed in 3131 usec
+total computed in 10080684 usec
+------------------------ k: 100, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 265372 usec
+knn computed in 9655297 usec
+write_results computed in 3147 usec
+total computed in 9925132 usec
+==================== N_workers: 128 ====================
+------------------------ k: 100, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 263840 usec
+knn computed in 7457749 usec
+write_results computed in 3116 usec
+total computed in 7725410 usec
+------------------------ k: 100, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 265107 usec
+knn computed in 7224838 usec
+write_results computed in 3380 usec
+total computed in 7494672 usec
+------------------------ k: 100, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 265538 usec
+knn computed in 7449714 usec
+write_results computed in 3224 usec
+total computed in 7719722 usec
+------------------------ k: 100, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 265738 usec
+knn computed in 7387922 usec
+write_results computed in 3125 usec
+total computed in 7658086 usec
+------------------------ k: 100, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 263024 usec
+knn computed in 7345252 usec
+write_results computed in 3107 usec
+total computed in 7612046 usec
+==================== N_workers: 256 ====================
+------------------------ k: 100, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 263644 usec
+knn computed in 6640003 usec
+write_results computed in 3213 usec
+total computed in 6907570 usec
+------------------------ k: 100, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 263544 usec
+knn computed in 6567199 usec
+write_results computed in 3352 usec
+total computed in 6834701 usec
+------------------------ k: 100, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 263857 usec
+knn computed in 6685188 usec
+write_results computed in 3263 usec
+total computed in 6953054 usec
+------------------------ k: 100, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 265862 usec
+knn computed in 6638590 usec
+write_results computed in 3170 usec
+total computed in 6908885 usec
+------------------------ k: 100, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 265513 usec
+knn computed in 6610694 usec
+write_results computed in 3251 usec
+total computed in 6880661 usec
+==================== k: 1000 ====================
+==================== N_workers: 1 ====================
+------------------------ k: 1000, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 262609 usec
+knn computed in 503300048 usec
+write_results computed in 4119 usec
+total computed in 503567396 usec
+------------------------ k: 1000, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 260731 usec
+knn computed in 504626174 usec
+write_results computed in 4235 usec
+total computed in 504891815 usec
+------------------------ k: 1000, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 261961 usec
+knn computed in 493833485 usec
+write_results computed in 4160 usec
+total computed in 494100945 usec
+------------------------ k: 1000, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 260566 usec
+knn computed in 494403556 usec
+write_results computed in 4035 usec
+total computed in 494668856 usec
+------------------------ k: 1000, N_workers: 1, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 267574 usec
+knn computed in 494540971 usec
+write_results computed in 4125 usec
+total computed in 494814134 usec
+==================== N_workers: 2 ====================
+------------------------ k: 1000, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 262196 usec
+knn computed in 260688827 usec
+write_results computed in 3151 usec
+total computed in 260955526 usec
+------------------------ k: 1000, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263359 usec
+knn computed in 260209057 usec
+write_results computed in 3227 usec
+total computed in 260476251 usec
+------------------------ k: 1000, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263196 usec
+knn computed in 276044099 usec
+write_results computed in 3172 usec
+total computed in 276311092 usec
+------------------------ k: 1000, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263727 usec
+knn computed in 264175642 usec
+write_results computed in 3237 usec
+total computed in 264443280 usec
+------------------------ k: 1000, N_workers: 2, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 252305 usec
+knn computed in 288085634 usec
+write_results computed in 3172 usec
+total computed in 288342242 usec
+==================== N_workers: 4 ====================
+------------------------ k: 1000, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 263645 usec
+knn computed in 133454647 usec
+write_results computed in 3254 usec
+total computed in 133722198 usec
+------------------------ k: 1000, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 264023 usec
+knn computed in 133375996 usec
+write_results computed in 4130 usec
+total computed in 133644901 usec
+------------------------ k: 1000, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 262064 usec
+knn computed in 133703849 usec
+write_results computed in 3978 usec
+total computed in 133971347 usec
+------------------------ k: 1000, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 249176 usec
+knn computed in 131455585 usec
+write_results computed in 4135 usec
+total computed in 131709809 usec
+------------------------ k: 1000, N_workers: 4, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 251091 usec
+knn computed in 129860345 usec
+write_results computed in 4147 usec
+total computed in 130117140 usec
+==================== N_workers: 8 ====================
+------------------------ k: 1000, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 261799 usec
+knn computed in 67815477 usec
+write_results computed in 3193 usec
+total computed in 68081810 usec
+------------------------ k: 1000, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 249135 usec
+knn computed in 66344519 usec
+write_results computed in 4105 usec
+total computed in 66598472 usec
+------------------------ k: 1000, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 262305 usec
+knn computed in 66575171 usec
+write_results computed in 3194 usec
+total computed in 66842148 usec
+------------------------ k: 1000, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 254099 usec
+knn computed in 65852107 usec
+write_results computed in 3143 usec
+total computed in 66110229 usec
+------------------------ k: 1000, N_workers: 8, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 265752 usec
+knn computed in 65715799 usec
+write_results computed in 3133 usec
+total computed in 65985424 usec
+==================== N_workers: 16 ====================
+------------------------ k: 1000, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 261105 usec
+knn computed in 38186216 usec
+write_results computed in 2975 usec
+total computed in 38450912 usec
+------------------------ k: 1000, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 249467 usec
+knn computed in 34922735 usec
+write_results computed in 4028 usec
+total computed in 35177158 usec
+------------------------ k: 1000, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 261162 usec
+knn computed in 34392636 usec
+write_results computed in 3189 usec
+total computed in 34658381 usec
+------------------------ k: 1000, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 260987 usec
+knn computed in 34049685 usec
+write_results computed in 3175 usec
+total computed in 34315294 usec
+------------------------ k: 1000, N_workers: 16, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 261947 usec
+knn computed in 34124332 usec
+write_results computed in 3055 usec
+total computed in 34390677 usec
+==================== N_workers: 32 ====================
+------------------------ k: 1000, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 262706 usec
+knn computed in 18591077 usec
+write_results computed in 3146 usec
+total computed in 18858213 usec
+------------------------ k: 1000, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 259060 usec
+knn computed in 17904646 usec
+write_results computed in 3152 usec
+total computed in 18167559 usec
+------------------------ k: 1000, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 249715 usec
+knn computed in 18679126 usec
+write_results computed in 3011 usec
+total computed in 18932503 usec
+------------------------ k: 1000, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 251609 usec
+knn computed in 17621850 usec
+write_results computed in 3100 usec
+total computed in 17877812 usec
+------------------------ k: 1000, N_workers: 32, N_points: 100k ------------------------
+Chunk-size: 32
+read_points computed in 251586 usec
+knn computed in 17537802 usec
+write_results computed in 3095 usec
+total computed in 17793716 usec
+==================== N_workers: 64 ====================
+------------------------ k: 1000, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 252756 usec
+knn computed in 9796529 usec
+write_results computed in 3190 usec
+total computed in 10053711 usec
+------------------------ k: 1000, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 251579 usec
+knn computed in 10159856 usec
+write_results computed in 3069 usec
+total computed in 10415888 usec
+------------------------ k: 1000, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 251002 usec
+knn computed in 9998126 usec
+write_results computed in 3096 usec
+total computed in 10253524 usec
+------------------------ k: 1000, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 250239 usec
+knn computed in 9864946 usec
+write_results computed in 3122 usec
+total computed in 10119482 usec
+------------------------ k: 1000, N_workers: 64, N_points: 100k ------------------------
+Chunk-size: 64
+read_points computed in 259448 usec
+knn computed in 9847613 usec
+write_results computed in 3278 usec
+total computed in 10111137 usec
+==================== N_workers: 128 ====================
+------------------------ k: 1000, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 250327 usec
+knn computed in 7404742 usec
+write_results computed in 3199 usec
+total computed in 7658900 usec
+------------------------ k: 1000, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 250993 usec
+knn computed in 7520366 usec
+write_results computed in 3212 usec
+total computed in 7775771 usec
+------------------------ k: 1000, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 250075 usec
+knn computed in 7413698 usec
+write_results computed in 3196 usec
+total computed in 7668312 usec
+------------------------ k: 1000, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 248579 usec
+knn computed in 7406363 usec
+write_results computed in 3046 usec
+total computed in 7658832 usec
+------------------------ k: 1000, N_workers: 128, N_points: 100k ------------------------
+Chunk-size: 128
+read_points computed in 251669 usec
+knn computed in 7227117 usec
+write_results computed in 3405 usec
+total computed in 7483457 usec
+==================== N_workers: 256 ====================
+------------------------ k: 1000, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 249817 usec
+knn computed in 6738193 usec
+write_results computed in 3261 usec
+total computed in 6992070 usec
+------------------------ k: 1000, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 262766 usec
+knn computed in 6565305 usec
+write_results computed in 3176 usec
+total computed in 6831862 usec
+------------------------ k: 1000, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 256720 usec
+knn computed in 6638534 usec
+write_results computed in 3223 usec
+total computed in 6899178 usec
+------------------------ k: 1000, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 254446 usec
+knn computed in 6622357 usec
+write_results computed in 3284 usec
+total computed in 6881329 usec
+------------------------ k: 1000, N_workers: 256, N_points: 100k ------------------------
+Chunk-size: 256
+read_points computed in 262278 usec
+knn computed in 6616300 usec
+write_results computed in 3262 usec
+total computed in 6882665 usec

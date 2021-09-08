@@ -54,7 +54,7 @@ struct firstThirdStage : ff_node_t<Task_t>
             return GO_ON;
         }
         //std::cout << "thirdStage received " << local << "\n";
-        outpus.append(task->local);
+        outputs.append(task->local);
         delete task;
         ntasks += delta;
         if (ntasks >= points.size())
@@ -74,7 +74,7 @@ struct firstThirdStage : ff_node_t<Task_t>
                 exit(-1);
             }
 
-            out << outpus << endl;
+            out << outputs << endl;
             out.close();
         }
     }
@@ -83,7 +83,7 @@ struct firstThirdStage : ff_node_t<Task_t>
     int delta;
     int k ;
     size_t ntasks = 0;
-    string outpus = "";
+    string outputs = "";
 };
 
 struct secondStage : ff_node_t<Task_t>
@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
 
     cout << "Chunk-size: " << delta << endl;
 
-    string outpus = "";
+    string outputs = "";
     vector<Point> points;
 
     {
