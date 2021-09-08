@@ -376,34 +376,34 @@ total computed in 1918397 usec
 ==================== N_workers: 8 ====================
 ------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------ 
 Chunk-size: 32
-read_points computed in 27304 usec 
-write_results computed in 3370 usec 
-knn computed in 1022160 usec 
-total computed in 1071858 usec 
+read_points computed in 27350 usec
+write_results computed in 38512 usec
+knn computed in 816941 usec
+total computed in 850266 usec
 ------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------ 
 Chunk-size: 32
-read_points computed in 27460 usec 
-write_results computed in 3938 usec 
-knn computed in 1072645 usec 
-total computed in 1122220 usec 
+read_points computed in 25800 usec
+write_results computed in 37190 usec
+knn computed in 805043 usec
+total computed in 837709 usec
 ------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------ 
 Chunk-size: 32
-read_points computed in 28620 usec 
-write_results computed in 3448 usec 
-knn computed in 919537 usec 
-total computed in 971137 usec 
+read_points computed in 27178 usec
+write_results computed in 37064 usec
+knn computed in 804653 usec
+total computed in 838200 usec
 ------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------ 
 Chunk-size: 32
-read_points computed in 27238 usec 
-write_results computed in 3614 usec 
-knn computed in 1029056 usec 
-total computed in 1079473 usec 
+read_points computed in 25809 usec
+write_results computed in 37181 usec
+knn computed in 803167 usec
+total computed in 835446 usec
 ------------------------ k: 100, N_workers: 8, N_points: 10k ------------------------ 
 Chunk-size: 32
-read_points computed in 27758 usec 
-write_results computed in 3536 usec 
-knn computed in 1032249 usec 
-total computed in 1083266 usec 
+read_points computed in 26122 usec
+write_results computed in 37093 usec
+knn computed in 802791 usec
+total computed in 835453 usec
 ==================== N_workers: 16 ====================
 ------------------------ k: 100, N_workers: 16, N_points: 10k ------------------------ 
 Chunk-size: 32
