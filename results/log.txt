@@ -1,0 +1,680 @@
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./sequential 1000 100000
+read_points computed in 255357 usec
+knn computed in 530914070 usec
+write results computed in 1192872 usec
+total computed in 532368081 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 1 100000
+read_points computed in 257662 usec
+split computed in 292 usec
+knn computed in 562699570 usec
+write_results computed in 1148805 usec
+total computed in 564280706 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 1 100000
+Chunk-size: 32
+read_points computed in 260518 usec
+knn computed in 551480349 usec
+write_results computed in 1159188 usec
+total computed in 552905946 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 1 100000
+read_points computed in 265121 usec
+knn computed in 550891618 usec
+write_results computed in 1146526 usec
+total computed in 552315481 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 1 100000
+Chunk-size: 32
+read_points computed in 266301 usec
+write_results computed in 3755068 usec
+knn computed in 555649883 usec
+total computed in 555930900 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 2 100000
+read_points computed in 261908 usec
+split computed in 452 usec
+knn computed in 302850838 usec
+write_results computed in 3700443 usec
+total computed in 307149818 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 2 100000
+Chunk-size: 32
+read_points computed in 262061 usec
+knn computed in 279719246 usec
+write_results computed in 3772034 usec
+total computed in 283761391 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 2 100000
+read_points computed in 267745 usec
+knn computed in 297907551 usec
+write_results computed in 3746086 usec
+total computed in 301946386 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 2 100000
+Chunk-size: 32
+read_points computed in 262361 usec
+write_results computed in 4103920 usec
+knn computed in 295336852 usec
+total computed in 295611228 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 4 100000
+read_points computed in 263533 usec
+split computed in 4894 usec
+knn computed in 151608304 usec
+write_results computed in 3635014 usec
+total computed in 155846269 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 4 100000
+Chunk-size: 32
+read_points computed in 263132 usec
+knn computed in 145634747 usec
+write_results computed in 3810136 usec
+total computed in 149716161 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 4 100000
+read_points computed in 267765 usec
+knn computed in 148918728 usec
+write_results computed in 4190358 usec
+total computed in 153397157 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 4 100000
+Chunk-size: 32
+read_points computed in 261725 usec
+write_results computed in 3837791 usec
+knn computed in 152470583 usec
+total computed in 152747223 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 8 100000
+read_points computed in 262567 usec
+split computed in 5735 usec
+knn computed in 77920177 usec
+write_results computed in 4107594 usec
+total computed in 82666214 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 8 100000
+Chunk-size: 32
+read_points computed in 270862 usec
+knn computed in 73177421 usec
+write_results computed in 3789070 usec
+total computed in 77243161 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 8 100000
+read_points computed in 268652 usec
+knn computed in 74897516 usec
+write_results computed in 3711715 usec
+total computed in 78905651 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 8 100000
+Chunk-size: 32
+read_points computed in 264347 usec
+write_results computed in 4190270 usec
+knn computed in 77688192 usec
+total computed in 77969038 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 16 100000
+read_points computed in 263023 usec
+split computed in 26567 usec
+knn computed in 45526295 usec
+write_results computed in 3691087 usec
+total computed in 49866236 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 16 100000
+Chunk-size: 32
+read_points computed in 262254 usec
+knn computed in 37190194 usec
+write_results computed in 3798330 usec
+total computed in 41258735 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 16 100000
+read_points computed in 268842 usec
+knn computed in 37888092 usec
+write_results computed in 3755239 usec
+total computed in 41950846 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 16 100000
+Chunk-size: 32
+read_points computed in 262817 usec
+write_results computed in 3811828 usec
+knn computed in 40850279 usec
+total computed in 41127917 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 32 100000
+read_points computed in 262535 usec
+split computed in 27029 usec
+knn computed in 24060943 usec
+write_results computed in 3730080 usec
+total computed in 28102654 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 32 100000
+Chunk-size: 32
+read_points computed in 262914 usec
+knn computed in 21025102 usec
+write_results computed in 3758382 usec
+total computed in 25052741 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 32 100000
+read_points computed in 269969 usec
+knn computed in 19347170 usec
+write_results computed in 3754057 usec
+total computed in 23429342 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 32 100000
+Chunk-size: 32
+read_points computed in 253765 usec
+write_results computed in 3814212 usec
+knn computed in 22764106 usec
+total computed in 23031488 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 64 100000
+read_points computed in 249203 usec
+split computed in 87041 usec
+knn computed in 13476228 usec
+write_results computed in 3680322 usec
+total computed in 17450075 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 64 100000
+Chunk-size: 64
+read_points computed in 253217 usec
+knn computed in 10933697 usec
+write_results computed in 3782189 usec
+total computed in 14976454 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 64 100000
+read_points computed in 254172 usec
+knn computed in 9966008 usec
+write_results computed in 3751724 usec
+total computed in 14060994 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 64 100000
+Chunk-size: 64
+read_points computed in 264395 usec
+write_results computed in 3802045 usec
+knn computed in 13804075 usec
+total computed in 14789164 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 128 100000
+read_points computed in 260705 usec
+split computed in 235841 usec
+knn computed in 10942033 usec
+write_results computed in 3672264 usec
+total computed in 14925741 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 128 100000
+Chunk-size: 128
+read_points computed in 259680 usec
+knn computed in 8423252 usec
+write_results computed in 3779509 usec
+total computed in 12467687 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 128 100000
+read_points computed in 268515 usec
+knn computed in 7833767 usec
+write_results computed in 3758416 usec
+total computed in 12044452 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 128 100000
+Chunk-size: 128
+read_points computed in 266187 usec
+write_results computed in 3846988 usec
+knn computed in 12073270 usec
+total computed in 12736944 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 128 100000
+Chunk-size: 128
+read_points computed in 264243 usec
+write_results computed in 3831348 usec
+knn computed in 12070797 usec
+total computed in 12734005 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 1000 256 100000
+read_points computed in 261205 usec
+split computed in 843518 usec
+knn computed in 13730632 usec
+write_results computed in 3731805 usec
+total computed in 17774971 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 1000 256 100000
+Chunk-size: 256
+read_points computed in 260389 usec
+knn computed in 7470578 usec
+write_results computed in 3785260 usec
+total computed in 11523117 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 1000 256 100000
+read_points computed in 269452 usec
+knn computed in 6673434 usec
+write_results computed in 3759755 usec
+total computed in 11057927 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 256 100000
+Chunk-size: 256
+read_points computed in 250903 usec
+write_results computed in 1562359 usec
+knn computed in 13728126 usec
+total computed in 14113394 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 1000 256 128 100000
+Chunk-size: 128
+read_points computed in 265097 usec
+write_results computed in 3849937 usec
+knn computed in 20281238 usec
+total computed in 20918262 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./sequential 100 100000
+read_points computed in 254505 usec
+knn computed in 479516658 usec
+write results computed in 384263 usec
+total computed in 480157169 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 1 100000
+read_points computed in 262166 usec
+split computed in 289 usec
+knn computed in 506888609 usec
+write_results computed in 377571 usec
+total computed in 507570447 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 1 100000
+Chunk-size: 32
+read_points computed in 260992 usec
+knn computed in 503478701 usec
+write_results computed in 432461 usec
+total computed in 504174369 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 1 100000
+read_points computed in 267121 usec
+knn computed in 501835372 usec
+write_results computed in 390931 usec
+total computed in 502499241 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 1 100000
+Chunk-size: 32
+read_points computed in 262529 usec
+write_results computed in 430411 usec
+knn computed in 502470887 usec
+total computed in 502742589 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 2 100000
+read_points computed in 258675 usec
+split computed in 444 usec
+knn computed in 271934675 usec
+write_results computed in 166318 usec
+total computed in 272418091 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 2 100000
+Chunk-size: 32
+read_points computed in 259894 usec
+knn computed in 264996293 usec
+write_results computed in 185348 usec
+total computed in 265443875 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 2 100000
+read_points computed in 267255 usec
+knn computed in 270867912 usec
+write_results computed in 170925 usec
+total computed in 271318683 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 2 100000
+Chunk-size: 32
+read_points computed in 261495 usec
+write_results computed in 181266 usec
+knn computed in 264890462 usec
+total computed in 265161406 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 4 100000
+read_points computed in 258375 usec
+split computed in 5074 usec
+knn computed in 138328441 usec
+write_results computed in 172240 usec
+total computed in 138790088 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 4 100000
+Chunk-size: 32
+read_points computed in 260813 usec
+knn computed in 134599616 usec
+write_results computed in 175768 usec
+total computed in 135037729 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 4 100000
+read_points computed in 272151 usec
+knn computed in 136613804 usec
+write_results computed in 169693 usec
+total computed in 137074896 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 4 100000
+Chunk-size: 32
+read_points computed in 263729 usec
+write_results computed in 181005 usec
+knn computed in 132969851 usec
+total computed in 133240816 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 8 100000
+read_points computed in 260284 usec
+split computed in 14484 usec
+knn computed in 69055896 usec
+write_results computed in 380682 usec
+total computed in 69733625 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 8 100000
+Chunk-size: 32
+read_points computed in 262386 usec
+knn computed in 67120171 usec
+write_results computed in 174130 usec
+total computed in 67558975 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 8 100000
+read_points computed in 268868 usec
+knn computed in 68025990 usec
+write_results computed in 169061 usec
+total computed in 68483558 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 8 100000
+Chunk-size: 32
+read_points computed in 251252 usec
+write_results computed in 190382 usec
+knn computed in 66759567 usec
+total computed in 67021731 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 16 100000
+read_points computed in 265262 usec
+split computed in 23540 usec
+knn computed in 35129481 usec
+write_results computed in 171632 usec
+total computed in 35602822 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 16 100000
+Chunk-size: 32
+read_points computed in 262948 usec
+knn computed in 33407497 usec
+write_results computed in 174243 usec
+total computed in 33846961 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 16 100000
+read_points computed in 269526 usec
+knn computed in 34180016 usec
+write_results computed in 171284 usec
+total computed in 34649720 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 16 100000
+Chunk-size: 32
+read_points computed in 274473 usec
+write_results computed in 190679 usec
+knn computed in 33598164 usec
+total computed in 33884076 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 32 100000
+read_points computed in 260526 usec
+split computed in 49142 usec
+knn computed in 18323879 usec
+write_results computed in 175298 usec
+total computed in 18797360 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 32 100000
+Chunk-size: 32
+read_points computed in 260674 usec
+knn computed in 18319932 usec
+write_results computed in 168009 usec
+total computed in 18750361 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 32 100000
+read_points computed in 254627 usec
+knn computed in 17044533 usec
+write_results computed in 173061 usec
+total computed in 17521685 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 32 100000
+Chunk-size: 32
+read_points computed in 258772 usec
+write_results computed in 197241 usec
+knn computed in 17109074 usec
+total computed in 17375893 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 64 100000
+read_points computed in 259613 usec
+split computed in 67046 usec
+knn computed in 11611335 usec
+write_results computed in 173604 usec
+total computed in 12082438 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 64 100000
+Chunk-size: 64
+read_points computed in 261232 usec
+knn computed in 10046828 usec
+write_results computed in 168940 usec
+total computed in 10478771 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 64 100000
+read_points computed in 264740 usec
+knn computed in 8793418 usec
+write_results computed in 172449 usec
+total computed in 9295712 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 64 100000
+Chunk-size: 64
+read_points computed in 263643 usec
+write_results computed in 194505 usec
+knn computed in 9112862 usec
+total computed in 10091713 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 64 128 100000
+Chunk-size: 128
+read_points computed in 262499 usec
+write_results computed in 200161 usec
+knn computed in 9254346 usec
+total computed in 9932179 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 128 100000
+read_points computed in 260657 usec
+split computed in 208114 usec
+write_results computed in 171285 usec
+total computed in 8560361 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 128 100000
+Chunk-size: 128
+read_points computed in 261715 usec
+knn computed in 7850762 usec
+write_results computed in 170940 usec
+total computed in 8285173 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 128 100000
+read_points computed in 256165 usec
+knn computed in 6737204 usec
+write_results computed in 170280 usec
+total computed in 7272164 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 128 100000
+Chunk-size: 128
+read_points computed in 262978 usec
+write_results computed in 205449 usec
+knn computed in 7778650 usec
+total computed in 8455816 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 100 256 100000
+read_points computed in 260910 usec
+split computed in 656456 usec
+knn computed in 6697451 usec
+write_results computed in 173289 usec
+total computed in 7169039 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 256 100000
+Chunk-size: 256
+read_points computed in 260255 usec
+knn computed in 6940271 usec
+write_results computed in 171081 usec
+total computed in 7373290 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 100 256 128 100000
+Chunk-size: 128
+read_points computed in 261588 usec
+knn computed in 7164537 usec
+write_results computed in 170991 usec
+total computed in 7598881 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 100 256 100000
+read_points computed in 256155 usec
+knn computed in 5519762 usec
+write_results computed in 172402 usec
+total computed in 6155725 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 256 100000
+Chunk-size: 256
+read_points computed in 264457 usec
+write_results computed in 224662 usec
+knn computed in 11666160 usec
+total computed in 12069384 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 100 256 128 100000
+Chunk-size: 128
+read_points computed in 251949 usec
+write_results computed in 216071 usec
+knn computed in 16156453 usec
+total computed in 16781317 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./sequential 10 100000
+read_points computed in 254773 usec
+knn computed in 476691945 usec
+write results computed in 49645 usec
+total computed in 476998256 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 1 100000
+read_points computed in 261571 usec
+split computed in 289 usec
+knn computed in 498642036 usec
+write_results computed in 57570 usec
+total computed in 498980325 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 1 100000
+Chunk-size: 32
+read_points computed in 262077 usec
+knn computed in 498227834 usec
+write_results computed in 61362 usec
+total computed in 498553493 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 1 100000
+read_points computed in 270470 usec
+knn computed in 501096316 usec
+write_results computed in 56310 usec
+total computed in 501428613 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 1 100000
+Chunk-size: 32
+read_points computed in 263185 usec
+write_results computed in 476025 usec
+knn computed in 496463230 usec
+total computed in 497530995 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 2 100000
+read_points computed in 261559 usec
+split computed in 444 usec
+knn computed in 268265404 usec
+write_results computed in 51196 usec
+total computed in 268601134 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 2 100000
+Chunk-size: 32
+read_points computed in 258837 usec
+knn computed in 262026651 usec
+write_results computed in 21180 usec
+total computed in 262307800 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 2 100000
+read_points computed in 265707 usec
+knn computed in 267980512 usec
+write_results computed in 24515 usec
+total computed in 268281491 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 2 100000
+Chunk-size: 32
+read_points computed in 264379 usec
+write_results computed in 430139 usec
+knn computed in 262269987 usec
+total computed in 263370300 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 4 100000
+read_points computed in 262342 usec
+split computed in 3090 usec
+knn computed in 135213414 usec
+write_results computed in 19982 usec
+total computed in 135514055 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 4 100000
+Chunk-size: 32
+read_points computed in 260626 usec
+knn computed in 130827912 usec
+write_results computed in 20173 usec
+total computed in 131110708 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 4 100000
+read_points computed in 269034 usec
+knn computed in 134512160 usec
+write_results computed in 20563 usec
+total computed in 134810036 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 4 100000
+Chunk-size: 32
+read_points computed in 253858 usec
+write_results computed in 422305 usec
+knn computed in 131739035 usec
+total computed in 132863290 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 8 100000
+read_points computed in 260372 usec
+split computed in 9372 usec
+knn computed in 67231735 usec
+write_results computed in 20879 usec
+total computed in 67533728 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 8 100000
+Chunk-size: 32
+read_points computed in 260051 usec
+knn computed in 65687859 usec
+write_results computed in 20616 usec
+total computed in 65970846 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 8 100000
+read_points computed in 267656 usec
+knn computed in 67312330 usec
+write_results computed in 19635 usec
+total computed in 67612425 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 8 100000
+Chunk-size: 32
+read_points computed in 251299 usec
+write_results computed in 420497 usec
+knn computed in 66297533 usec
+total computed in 67451021 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 16 100000
+read_points computed in 261397 usec
+split computed in 21167 usec
+knn computed in 34025771 usec
+write_results computed in 20532 usec
+total computed in 34326021 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 16 100000
+Chunk-size: 32
+read_points computed in 261310 usec
+knn computed in 33164547 usec
+write_results computed in 19915 usec
+total computed in 33447339 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 16 100000
+read_points computed in 269550 usec
+knn computed in 33761413 usec
+write_results computed in 20227 usec
+total computed in 34072069 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 16 100000
+Chunk-size: 32
+read_points computed in 259658 usec
+write_results computed in 840946 usec
+knn computed in 33891278 usec
+total computed in 34614564 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 32 100000
+read_points computed in 261213 usec
+split computed in 65641 usec
+knn computed in 17864466 usec
+write_results computed in 23809 usec
+total computed in 18168424 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 32 100000
+Chunk-size: 32
+read_points computed in 262411 usec
+knn computed in 17600374 usec
+write_results computed in 19976 usec
+total computed in 17885177 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 32 100000
+read_points computed in 267853 usec
+knn computed in 16795173 usec
+write_results computed in 21605 usec
+total computed in 17116468 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 32 100000
+Chunk-size: 32
+read_points computed in 263196 usec
+write_results computed in 419114 usec
+knn computed in 17154074 usec
+total computed in 18303735 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 64 100000
+read_points computed in 260350 usec
+split computed in 81155 usec
+knn computed in 11123810 usec
+write_results computed in 23685 usec
+total computed in 11428786 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 64 100000
+Chunk-size: 64
+read_points computed in 260949 usec
+knn computed in 9505484 usec
+write_results computed in 20185 usec
+total computed in 9787649 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 64 100000
+read_points computed in 260183 usec
+knn computed in 8682385 usec
+write_results computed in 21486 usec
+total computed in 9027898 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 32 100000./ff_farm 10 32 1000^C
+
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 64 100000
+Chunk-size: 64
+read_points computed in 251181 usec
+write_results computed in 249778 usec
+knn computed in 9069814 usec
+total computed in 9805269 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 128 100000
+read_points computed in 259921 usec
+split computed in 273062 usec
+knn computed in 7884316 usec
+write_results computed in 23099 usec
+total computed in 8187927 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 128 100000
+Chunk-size: 128
+read_points computed in 264069 usec
+knn computed in 7620114 usec
+write_results computed in 19842 usec
+total computed in 7905172 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 64 100000./ff_parallel_reduce 10 64 100000^C
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 128 100000
+read_points computed in 268962 usec
+knn computed in 6592669 usec
+write_results computed in 20127 usec
+total computed in 6993511 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 128 100000
+Chunk-size: 128
+read_points computed in 249546 usec
+write_results computed in 210554 usec
+knn computed in 7681275 usec
+total computed in 8135855 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_map 10 256 100000
+read_points computed in 264300 usec
+split computed in 645961 usec
+knn computed in 6425364 usec
+write_results computed in 23254 usec
+total computed in 6732176 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 256 100000
+Chunk-size: 256
+read_points computed in 260994 usec
+knn computed in 6715875 usec
+write_results computed in 20117 usec
+total computed in 6998714 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./threads_pool 10 256 128 100000
+Chunk-size: 128
+read_points computed in 257052 usec
+knn computed in 6796014 usec
+write_results computed in 19915 usec
+total computed in 7074987 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_parallel_reduce 10 256 100000
+read_points computed in 270198 usec
+knn computed in 5409800 usec
+write_results computed in 21098 usec
+total computed in 5910531 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 256 100000
+Chunk-size: 256
+read_points computed in 262636 usec
+write_results computed in 32867 usec
+knn computed in 11126663 usec
+total computed in 11537106 usec
+[x.li7@C6320p-2 MultiThread-K-Nearest-Neighbors]$ ./ff_farm 10 256 128 100000
+Chunk-size: 128
+read_points computed in 262350 usec
+write_results computed in 232003 usec
+knn computed in 15702648 usec
+total computed in 16116167 usec
