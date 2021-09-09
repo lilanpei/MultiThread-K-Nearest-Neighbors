@@ -8,7 +8,7 @@ for k in 10 100 1000
                 for _ in {1..5..1}
                     do
                         echo "------------------------ k: $k, N_workers: $nw, N_points: 10k ------------------------ "
-                        ./ff_parallel_reduce k $nw 10000
+                        ./ff_parallel_reduce $k $nw 10000
                     done
             done
     done
@@ -24,7 +24,7 @@ for k in 10 100 1000
                 for _ in {1..5..1}
                     do
                         echo "------------------------ k: $k, N_workers: $nw, N_points: 100k ------------------------ "
-                        ./ff_parallel_reduce k $nw 100000
+                        ./ff_parallel_reduce $k $nw 100000
                     done
             done
     done

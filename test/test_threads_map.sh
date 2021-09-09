@@ -8,7 +8,7 @@ for k in 10 100 1000
                 for _ in {1..5..1}
                     do
                         echo "------------------------ k: $k, N_workers: $nw, N_points: 10k ------------------------ "
-                        ./threads_map k $nw 10000
+                        ./threads_map $k $nw 10000
                     done
             done
     done
@@ -24,7 +24,7 @@ for k in 10 100 1000
                 for _ in {1..5..1}
                     do
                         echo "------------------------ k: $k, N_workers: $nw, N_points: 100k ------------------------ "
-                        ./threads_map k $nw 100000
+                        ./threads_map $k $nw 100000
                     done
             done
     done
