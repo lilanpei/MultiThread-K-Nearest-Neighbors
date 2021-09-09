@@ -12,13 +12,11 @@ using namespace std;
 
 struct Task_t
 {
-    Task_t(vector<Point> points, string local, int start, int end, int k)
-        : points(points), local(local), start(start), end(end), k(k) {}
-    vector<Point> points;
+    Task_t(string local, int start, int end)
+        : local(local), start(start), end(end){}
     string local;
     int start;
     int end;
-    int k;
 };
 
 void knn(vector<Point> points, string &local, int start, int end, int k)
@@ -48,7 +46,7 @@ struct firstThirdStage : ff_node_t<Task_t>
         {
             for (int i = 0; i < size; i += delta)
             {
-                Task_t *task = new Task_t(points, local, i, min(i + delta, size), k);
+                Task_t *task = new Task_t(local, i, min(i + delta, size));
                 ff_send_out(task);
             }
             return GO_ON;
@@ -88,12 +86,16 @@ struct firstThirdStage : ff_node_t<Task_t>
 
 struct secondStage : ff_node_t<Task_t>
 {
+    secondStage(vector<Point> points, int k) : points(points), k(k) {}
+
     Task_t *svc(Task_t *task)
     {
         //std::cout << "secondStage received " << "\n";
-        knn(task->points, task->local, task->start, task->end, task->k);
+        knn(points, task->local, task->start, task->end, k);
         return task;
     }
+    vector<Point> points;
+    int k;
 };
 
 int main(int argc, char *argv[])
@@ -140,7 +142,7 @@ int main(int argc, char *argv[])
 
     std::vector<std::unique_ptr<ff_node>> W;
     for (size_t i = 0; i < nworkers; ++i)
-        W.push_back(make_unique<secondStage>());
+        W.push_back(make_unique<secondStage>(points, k));
 
     ff_Farm<Task_t> farm(std::move(W), firstthird);
     farm.remove_collector(); // needed because the collector is present by default in the ff_Farm
